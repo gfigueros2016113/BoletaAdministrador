@@ -1,0 +1,529 @@
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+c:\users\user\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\USER\source\repos\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasUsuario\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\USER\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\practicas19\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\Versión 1\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Desktop\SERVER 7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+\\econsasap\INSTALADORES GENERALES\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+\\192.168.0.3\instaladores generales\Boletas\SERVER7\Boletas\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Documents\Proyecto Boletas 2020\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\Administrador\Desktop\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csprojAssemblyReference.cache
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.AutorizarBoletas.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.BoletaSistemas.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Carga.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearEspecial.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearFalta.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearIggs.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearReposicion.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspension.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearSuspensionIGSS.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearUsuario.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.CrearVacaciones.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleConsulta.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleEspecial.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleReposicion.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSancion.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleSuspension.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
+C:\Users\hpalma\Documents\Respaldos\BoletasAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.pdb

@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F22138CF-796F-42F0-956B-D302D283AF60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BoletasUsuario</RootNamespace>
+    <AssemblyName>BoletasUsuario</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>calendar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutorizarBoletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutorizarBoletas.Designer.cs">
+      <DependentUpon>AutorizarBoletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoletaSistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoletaSistemas.Designer.cs">
+      <DependentUpon>BoletaSistemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carga.Designer.cs">
+      <DependentUpon>Carga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultasSQL.cs" />
+    <Compile Include="CrearEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearEspecial.Designer.cs">
+      <DependentUpon>CrearEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearFalta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearFalta.Designer.cs">
+      <DependentUpon>CrearFalta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearIggs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearIggs.Designer.cs">
+      <DependentUpon>CrearIggs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearReposicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearReposicion.Designer.cs">
+      <DependentUpon>CrearReposicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearSuspension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearSuspension.Designer.cs">
+      <DependentUpon>CrearSuspension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearSuspensionIGSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearSuspensionIGSS.Designer.cs">
+      <DependentUpon>CrearSuspensionIGSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearUsuario.Designer.cs">
+      <DependentUpon>CrearUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearVacaciones.Designer.cs">
+      <DependentUpon>CrearVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleConsulta.Designer.cs">
+      <DependentUpon>DetalleConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleEspecial.Designer.cs">
+      <DependentUpon>DetalleEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleReposicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleReposicion.Designer.cs">
+      <DependentUpon>DetalleReposicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleSancion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleSancion.Designer.cs">
+      <DependentUpon>DetalleSancion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleSuspension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleSuspension.Designer.cs">
+      <DependentUpon>DetalleSuspension.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetalleVacaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleVacaciones.Designer.cs">
+      <DependentUpon>DetalleVacaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EspecialesSQL.cs" />
+    <Compile Include="IGSSsql.cs" />
+    <Compile Include="Interfaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaz.Designer.cs">
+      <DependentUpon>Interfaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perfil.Designer.cs">
+      <DependentUpon>perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pregunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pregunta.Designer.cs">
+      <DependentUpon>Pregunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReposicionesSQL.cs" />
+    <Compile Include="SancionSql.cs" />
+    <Compile Include="SuspensionSql.cs" />
+    <Compile Include="VacacionesSQL.cs" />
+    <Compile Include="VerBoletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerBoletas.Designer.cs">
+      <DependentUpon>VerBoletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerEmpleados.Designer.cs">
+      <DependentUpon>VerEmpleados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AutorizarBoletas.resx">
+      <DependentUpon>AutorizarBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletaSistemas.resx">
+      <DependentUpon>BoletaSistemas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carga.resx">
+      <DependentUpon>Carga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearEspecial.resx">
+      <DependentUpon>CrearEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearFalta.resx">
+      <DependentUpon>CrearFalta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearIggs.resx">
+      <DependentUpon>CrearIggs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearReposicion.resx">
+      <DependentUpon>CrearReposicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearSuspension.resx">
+      <DependentUpon>CrearSuspension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearSuspensionIGSS.resx">
+      <DependentUpon>CrearSuspensionIGSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearUsuario.resx">
+      <DependentUpon>CrearUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearVacaciones.resx">
+      <DependentUpon>CrearVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleConsulta.resx">
+      <DependentUpon>DetalleConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleEspecial.resx">
+      <DependentUpon>DetalleEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleReposicion.resx">
+      <DependentUpon>DetalleReposicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleSancion.resx">
+      <DependentUpon>DetalleSancion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleSuspension.resx">
+      <DependentUpon>DetalleSuspension.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleVacaciones.resx">
+      <DependentUpon>DetalleVacaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaz.resx">
+      <DependentUpon>Interfaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="perfil.resx">
+      <DependentUpon>perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pregunta.resx">
+      <DependentUpon>Pregunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VerBoletas.resx">
+      <DependentUpon>VerBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerEmpleados.resx">
+      <DependentUpon>VerEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Econsa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo econsa blanco %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reloj-circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parasol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\igss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\igss_opt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan-de-estudios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\certificado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juzgar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proximo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\len.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jefe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busqueda %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="calendar.ico" />
+    <None Include="Resources\cerrar.png" />
+    <None Include="Resources\mas.png" />
+    <None Include="Resources\editar.png" />
+    <None Include="Resources\usuario.png" />
+    <None Include="Resources\cartera.png" />
+    <None Include="Resources\agregar-usuario.png" />
+    <None Include="Resources\busqueda %281%291.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\FONDO 4.PNG" />
+    <None Include="Resources\Logo excel_opt.png" />
+    <None Include="Resources\Logo excel.png" />
+    <None Include="Resources\regresar_opt.jpg" />
+    <None Include="Resources\organization.png" />
+    <None Include="Resources\fondo5.png" />
+    <None Include="Resources\detener.png" />
+    <None Include="Resources\pluma.png" />
+    <None Include="Resources\firma.png" />
+    <None Include="Resources\hierarchy.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
