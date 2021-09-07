@@ -93,6 +93,17 @@ namespace BoletasUsuario
             conexion.Close();
         }
 
+        public DataTable ObtenerMarcas()
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo"), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
         public bool CrearVacacionesNivel2(string obs, 
             string fecha1, string desc1,
             string fecha2, string desc2,
