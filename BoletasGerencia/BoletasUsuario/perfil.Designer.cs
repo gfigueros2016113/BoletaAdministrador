@@ -366,7 +366,7 @@
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.comboBox3);
             this.panel2.Controls.Add(this.label12);
-            this.panel2.Location = new System.Drawing.Point(467, 56);
+            this.panel2.Location = new System.Drawing.Point(12, 55);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(436, 320);
