@@ -171,6 +171,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Marcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Marcas.Designer.cs">
+      <DependentUpon>Marcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="perfil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -257,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marcas.resx">
+      <DependentUpon>Marcas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perfil.resx">
       <DependentUpon>perfil.cs</DependentUpon>
@@ -373,6 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="calendar.ico" />
+    <Content Include="Resources\lista-de-asistentes.png" />
     <None Include="Resources\cerrar.png" />
     <None Include="Resources\mas.png" />
     <None Include="Resources\editar.png" />
