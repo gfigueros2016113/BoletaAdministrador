@@ -201,6 +201,12 @@
     <Compile Include="VerEmpleados.Designer.cs">
       <DependentUpon>VerEmpleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerHorario.Designer.cs">
+      <DependentUpon>VerHorario.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AutorizarBoletas.resx">
       <DependentUpon>AutorizarBoletas.cs</DependentUpon>
     </EmbeddedResource>
@@ -279,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VerEmpleados.resx">
       <DependentUpon>VerEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerHorario.resx">
+      <DependentUpon>VerHorario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -373,6 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="calendar.ico" />
+    <Content Include="Resources\informacion.png" />
     <None Include="Resources\cerrar.png" />
     <None Include="Resources\mas.png" />
     <None Include="Resources\editar.png" />

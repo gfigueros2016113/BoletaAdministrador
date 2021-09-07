@@ -26,6 +26,8 @@ namespace BoletasUsuario
         public string permiso;
         public string empresa;
         public string departamentoPrincipal;
+        public string valorHorario;
+
         ConsultasSQL SQL = new ConsultasSQL();
         private void perfil_Load(object sender, EventArgs e)
         {
@@ -45,6 +47,13 @@ namespace BoletasUsuario
             comboBox3.DataSource = SQL.MostrarDepartamentos();
             comboBox3.DisplayMember = "nombre";
             comboBox3.ValueMember = "idDepartamento";
+
+            comboBox5.DataSource = SQL.MostrarHorario();
+            comboBox5.DisplayMember = "nombre";
+            comboBox5.ValueMember = "idHorario";
+            valorHorario = comboBox5.SelectedValue.ToString();
+
+
 
             Dictionary<string, string> test = new Dictionary<string, string>();
             test.Add("1", "1");
@@ -107,7 +116,7 @@ namespace BoletasUsuario
             DialogResult dialog = MessageBox.Show("¿Esta segur@ de que desea editar al empleado?", "Editar", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (dialog == DialogResult.Yes)
             {
-                if (SQL.EditarEmpleado(textBox1.Text, textBox2.Text,comboBox1.SelectedValue.ToString(), dateTimePicker1.Value.ToShortDateString(),numericUpDown1.Value.ToString(),comboBox2.SelectedValue.ToString(),id))
+                if (SQL.EditarEmpleado(textBox1.Text, textBox2.Text,comboBox1.SelectedValue.ToString(), dateTimePicker1.Value.ToShortDateString(),numericUpDown1.Value.ToString(),comboBox2.SelectedValue.ToString(),id, comboBox5.SelectedValue.ToString()))
                 {
                     MessageBox.Show("Empleado editado correctamente");                  
                 }
@@ -155,6 +164,15 @@ namespace BoletasUsuario
             {
                 MessageBox.Show("El registro ha sido cancelado", "Registro Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+            VerHorario verHorario = new VerHorario();
+            verHorario.valorHorario = valorHorario;
+            verHorario.Show();
+
         }
     }
 }

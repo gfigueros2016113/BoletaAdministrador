@@ -11,7 +11,7 @@ namespace BoletasUsuario
 {
     class SuspensionSql
     {
-        private SqlConnection conexion = new SqlConnection("data source = 192.168.0.7; initial catalog = Permisos; user id = sa; password = grueconsa");
+        private SqlConnection conexion = new SqlConnection("data source = 192.168.0.5; initial catalog = Permisos; user id = sa; password = grueconsa");
         private DataSet ds;
 
         public string idBoleta;

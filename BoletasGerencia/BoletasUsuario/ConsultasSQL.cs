@@ -11,7 +11,7 @@ namespace BoletasUsuario
 {
     class ConsultasSQL
     {
-        private SqlConnection conexion = new SqlConnection("data source = 192.168.0.7; initial catalog = Permisos; user id = sa; password = grueconsa");
+        private SqlConnection conexion = new SqlConnection("data source = 192.168.0.5; initial catalog = Permisos; user id = sa; password = grueconsa");
         private DataSet ds;
 
 
@@ -1148,6 +1148,18 @@ namespace BoletasUsuario
             return ds.Tables["tabla"];
         }
 
+        public DataTable MostrarHorario()
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select h.idhorario , h.nombre from horario h order by nombre;"), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+
 
         public bool RestarVacaciones(string dias, string idUser)
         {
@@ -1252,6 +1264,17 @@ namespace BoletasUsuario
         {
             conexion.Open();
             SqlCommand cmd2 = new SqlCommand(string.Format("select *from Usuario where idDepartamentoP = {0}", new string[] { idDepartamento }), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+        public DataTable MostrarDias(string horario)
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select d.nombre as Dia, d.entrada, d.salida from dia d where horario = {0}", new string[] { horario }), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
@@ -1965,7 +1988,7 @@ namespace BoletasUsuario
         public DataTable ObtenerDepartamento(string id)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select u.idUsuario as ID, u.nombre,u.vacaciones, ud.nivel  from UsuarioDep ud inner join Usuario u on ud.idUsuario = u.idUsuario where ud.idDepartamento = {0} order by ud.nivel", new string[] { id }), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.idUsuario as ID, u.nombre,u.vacaciones, ud.nivel, h.nombre as Horario from UsuarioDep ud inner join Usuario u on ud.idUsuario = u.idUsuario inner join horario h on u.horario = h.idHorario where ud.idDepartamento = {0} order by ud.nivel  ", new string[] { id }), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
@@ -1975,7 +1998,7 @@ namespace BoletasUsuario
         public DataTable ObtenerDepartamentosXId(string id)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select ud.idUsuarioDep as ID,u.nombre,d.nombre as Departemento, ud.nivel  from UsuarioDep ud inner join Usuario u on ud.idUsuario = u.idUsuario inner join Departamento d on ud.idDepartamento = d.idDepartamento where ud.idUsuario = {0} ", new string[] { id }), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select ud.idUsuarioDep as ID,u.nombre,d.nombre as Departemento, ud.nivel, h.nombre as Horario from UsuarioDep ud inner join Usuario u on ud.idUsuario = u.idUsuario inner join Departamento d on ud.idDepartamento = d.idDepartamento inner join horario h on u.horario = h.idHorario where ud.idUsuario = {0} ", new string[] { id }), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
@@ -1994,10 +2017,10 @@ namespace BoletasUsuario
             else return false;
         }
 
-        public bool EditarEmpleado(string nombre, string puesto,  string idEmpresa,  string fecha, string vacaciones, string idDepartamentoP, string id)
+        public bool EditarEmpleado(string nombre, string puesto,  string idEmpresa,  string fecha, string vacaciones, string idDepartamentoP, string id, string horario)
         {
             conexion.Open();
-            SqlCommand cmd = new SqlCommand(string.Format("SET LANGUAGE SPANISH; UPDATE Usuario SET nombre = '{0}', puesto = '{1}', idEmpresa = {2}, inicioLabores = '{3}',vacaciones = {4}, idDepartamentoP = {5} WHERE idUsuario = {6}", new string[] {  nombre,  puesto,  idEmpresa,  fecha,  vacaciones,  idDepartamentoP,  id }), conexion);
+            SqlCommand cmd = new SqlCommand(string.Format("SET LANGUAGE SPANISH; UPDATE Usuario SET nombre = '{0}', puesto = '{1}', idEmpresa = {2}, inicioLabores = '{3}',vacaciones = {4}, idDepartamentoP = {5}, horario = {7} WHERE idUsuario = {6}", new string[] {  nombre,  puesto,  idEmpresa,  fecha,  vacaciones,  idDepartamentoP,  id, horario }), conexion);
             int filasafectadas = 0;
             filasafectadas = cmd.ExecuteNonQuery();
             conexion.Close();
