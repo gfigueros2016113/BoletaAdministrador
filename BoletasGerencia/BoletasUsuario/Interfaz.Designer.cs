@@ -35,7 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.marcas_btn = new System.Windows.Forms.Button();
+            this.bio_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -138,23 +138,23 @@
             this.label1.TabIndex = 36;
             this.label1.Text = "Bienvenid@:";
             // 
-            // marcas_btn
+            // bio_btn
             // 
-            this.marcas_btn.BackColor = System.Drawing.Color.Transparent;
-            this.marcas_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.marcas_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.marcas_btn.Image = global::BoletasUsuario.Properties.Resources.lista_de_asistentes;
-            this.marcas_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.marcas_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.marcas_btn.Location = new System.Drawing.Point(547, 105);
-            this.marcas_btn.Name = "marcas_btn";
-            this.marcas_btn.Size = new System.Drawing.Size(178, 184);
-            this.marcas_btn.TabIndex = 38;
-            this.marcas_btn.Text = "Marcas Empleados";
-            this.marcas_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.marcas_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.marcas_btn.UseVisualStyleBackColor = false;
-            this.marcas_btn.Click += new System.EventHandler(this.marcas_btn_Click);
+            this.bio_btn.BackColor = System.Drawing.Color.Transparent;
+            this.bio_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bio_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bio_btn.Image = global::BoletasUsuario.Properties.Resources.biometria;
+            this.bio_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.bio_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bio_btn.Location = new System.Drawing.Point(543, 103);
+            this.bio_btn.Name = "bio_btn";
+            this.bio_btn.Size = new System.Drawing.Size(178, 184);
+            this.bio_btn.TabIndex = 39;
+            this.bio_btn.Text = "Registros Biométricos";
+            this.bio_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.bio_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.bio_btn.UseVisualStyleBackColor = false;
+            this.bio_btn.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // Interfaz
             // 
@@ -163,7 +163,7 @@
             this.BackgroundImage = global::BoletasUsuario.Properties.Resources.fondo1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(832, 402);
-            this.Controls.Add(this.marcas_btn);
+            this.Controls.Add(this.bio_btn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -193,6 +193,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button marcas_btn;
+        private System.Windows.Forms.Button bio_btn;
     }
 }
