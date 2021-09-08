@@ -33,11 +33,11 @@ namespace BoletasUsuario
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.horario_btn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.previa_btn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tarde_btn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -100,21 +100,22 @@ namespace BoletasUsuario
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // horario_btn
             // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Image = global::BoletasUsuario.Properties.Resources.horario_de_trabajo;
-            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(424, 83);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(142, 139);
-            this.button6.TabIndex = 51;
-            this.button6.Text = "Reporte Horarios.";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button6.UseVisualStyleBackColor = false;
+            this.horario_btn.BackColor = System.Drawing.Color.Transparent;
+            this.horario_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.horario_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.horario_btn.Image = global::BoletasUsuario.Properties.Resources.horario_de_trabajo;
+            this.horario_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.horario_btn.Location = new System.Drawing.Point(424, 83);
+            this.horario_btn.Name = "horario_btn";
+            this.horario_btn.Size = new System.Drawing.Size(142, 139);
+            this.horario_btn.TabIndex = 51;
+            this.horario_btn.Text = "Reporte Horarios.";
+            this.horario_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.horario_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.horario_btn.UseVisualStyleBackColor = false;
+            this.horario_btn.Click += new System.EventHandler(this.horario_btn_Click);
             // 
             // button4
             // 
@@ -132,21 +133,22 @@ namespace BoletasUsuario
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // previa_btn
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::BoletasUsuario.Properties.Resources.salida;
-            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(128, 228);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(142, 139);
-            this.button2.TabIndex = 49;
-            this.button2.Text = "Reporte salida previa.";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button2.UseVisualStyleBackColor = false;
+            this.previa_btn.BackColor = System.Drawing.Color.Transparent;
+            this.previa_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.previa_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.previa_btn.Image = global::BoletasUsuario.Properties.Resources.salida;
+            this.previa_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.previa_btn.Location = new System.Drawing.Point(128, 228);
+            this.previa_btn.Name = "previa_btn";
+            this.previa_btn.Size = new System.Drawing.Size(142, 139);
+            this.previa_btn.TabIndex = 49;
+            this.previa_btn.Text = "Reporte salida previa.";
+            this.previa_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.previa_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.previa_btn.UseVisualStyleBackColor = false;
+            this.previa_btn.Click += new System.EventHandler(this.previa_btn_Click);
             // 
             // button3
             // 
@@ -164,21 +166,22 @@ namespace BoletasUsuario
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // tarde_btn
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::BoletasUsuario.Properties.Resources.retrasar;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(572, 83);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(142, 139);
-            this.button1.TabIndex = 53;
-            this.button1.Text = "Reporte entrada tarde.";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = false;
+            this.tarde_btn.BackColor = System.Drawing.Color.Transparent;
+            this.tarde_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.tarde_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tarde_btn.Image = global::BoletasUsuario.Properties.Resources.retrasar;
+            this.tarde_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.tarde_btn.Location = new System.Drawing.Point(572, 83);
+            this.tarde_btn.Name = "tarde_btn";
+            this.tarde_btn.Size = new System.Drawing.Size(142, 139);
+            this.tarde_btn.TabIndex = 53;
+            this.tarde_btn.Text = "Reporte entrada tarde.";
+            this.tarde_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.tarde_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.tarde_btn.UseVisualStyleBackColor = false;
+            this.tarde_btn.Click += new System.EventHandler(this.tarde_btn_Click);
             // 
             // button5
             // 
@@ -204,11 +207,11 @@ namespace BoletasUsuario
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 450);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tarde_btn);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.horario_btn);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.previa_btn);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
@@ -228,11 +231,11 @@ namespace BoletasUsuario
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button horario_btn;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button previa_btn;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button tarde_btn;
         private System.Windows.Forms.Button button5;
     }
 }

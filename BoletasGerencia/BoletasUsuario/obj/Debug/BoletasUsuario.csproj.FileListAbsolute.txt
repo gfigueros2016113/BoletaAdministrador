@@ -605,3 +605,6 @@ C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\
 >>>>>>> 8790dd1 (Marcas de Empleados)
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Marcas.resources
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Biometricos.resources
+C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteEntradaTarde.resources
+C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteHorario.resources
+C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteSalidaPrevia.resources

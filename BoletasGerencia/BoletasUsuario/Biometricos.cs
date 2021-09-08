@@ -26,5 +26,23 @@ namespace BoletasUsuario
         {
 
         }
+
+        private void horario_btn_Click(object sender, EventArgs e)
+        {
+            ReporteHorario reporteHorario = new ReporteHorario();
+            reporteHorario.Show();
+        }
+
+        private void tarde_btn_Click(object sender, EventArgs e)
+        {
+            ReporteEntradaTarde reporteEntradaTarde = new ReporteEntradaTarde();
+            reporteEntradaTarde.Show();
+        }
+
+        private void previa_btn_Click(object sender, EventArgs e)
+        {
+            ReporteSalidaPrevia reporteSalidaPrevia = new ReporteSalidaPrevia();
+            reporteSalidaPrevia.Show();
+        }
     }
 }
