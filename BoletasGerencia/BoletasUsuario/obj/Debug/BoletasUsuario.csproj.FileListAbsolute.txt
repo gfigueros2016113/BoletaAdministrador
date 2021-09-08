@@ -563,12 +563,8 @@ C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\o
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerHorario.resources
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 =======
 >>>>>>> d54d8c6 (Solucion de conflictos 2)
-=======
 >>>>>>> d54d8c6650b80f9f400fe6c6e9a356e5bb72e23b
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe.config
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\bin\Debug\BoletasUsuario.exe
@@ -594,37 +590,16 @@ C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetalleVacaciones.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Interfaz.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Login.resources
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Marcas.resources
->>>>>>> d54d8c6 (Solucion de conflictos 2)
-=======
-C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Marcas.resources
->>>>>>> d54d8c6650b80f9f400fe6c6e9a356e5bb72e23b
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.perfil.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Pregunta.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Properties.Resources.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerBoletas.resources
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerEmpleados.resources
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerHorario.resources
->>>>>>> d54d8c6 (Solucion de conflictos 2)
-=======
-C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.VerHorario.resources
->>>>>>> d54d8c6650b80f9f400fe6c6e9a356e5bb72e23b
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.GenerateResource.cache
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CoreCompileInputs.cache
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.csproj.CopyComplete
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.exe
 C:\Users\User01\Source\Repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.pdb
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\User01\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.Marcas.resources
 >>>>>>> 8790dd1 (Marcas de Empleados)
-=======
->>>>>>> d54d8c6 (Solucion de conflictos 2)
-=======
->>>>>>> d54d8c6650b80f9f400fe6c6e9a356e5bb72e23b
