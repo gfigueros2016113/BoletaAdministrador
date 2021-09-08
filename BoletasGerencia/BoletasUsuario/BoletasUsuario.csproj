@@ -391,11 +391,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="calendar.ico" />
-<<<<<<< HEAD
     <Content Include="Resources\informacion.png" />
-=======
     <Content Include="Resources\lista-de-asistentes.png" />
->>>>>>> 8790dd1 (Marcas de Empleados)
     <None Include="Resources\cerrar.png" />
     <None Include="Resources\mas.png" />
     <None Include="Resources\editar.png" />
