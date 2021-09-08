@@ -41,6 +41,7 @@ namespace BoletasUsuario
         public string permiso;
         public string empresa;
         public string departamentoPrincipal;
+        public string horario;
         public string idDepa;
         public string idEmpresa;
         public void ObtenerUsuario(string user, string contrasena)
@@ -64,7 +65,7 @@ namespace BoletasUsuario
         public void ObtenerUsuarioXid(string id)
         {
             conexion.Open();
-            SqlCommand cmd = new SqlCommand(string.Format("select u.*, e.idEmpresa,e.nombre as empresa from Usuario u inner join Empresa e on u.idEmpresa = e.idEmpresa where u.idUsuario = {0}", new string[] { id }), conexion);
+            SqlCommand cmd = new SqlCommand(string.Format("select u.*, e.idEmpresa,e.nombre as empresa , h.nombre from Usuario u inner join Empresa e on u.idEmpresa = e.idEmpresa inner join horario h on u.horario = h.idHorario where u.idUsuario = {0}", new string[] { id }), conexion);
             SqlDataReader reader = cmd.ExecuteReader();
             reader.Read();
             id = Convert.ToString(reader["idUsuario"]);
@@ -77,6 +78,7 @@ namespace BoletasUsuario
             empresa = Convert.ToString(reader["empresa"]);
             idEmpresa = Convert.ToString(reader["idEmpresa"]);
             departamentoPrincipal = Convert.ToString(reader["idDepartamentoP"]);
+            horario = Convert.ToString(reader["horario"]);
             reader.Close();
             conexion.Close();
         }
@@ -1148,10 +1150,10 @@ namespace BoletasUsuario
             return ds.Tables["tabla"];
         }
 
-        public DataTable MostrarHorario()
+        public DataTable MostrarHorarioAsignado()
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select h.idhorario , h.nombre from horario h order by nombre;"), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select * from horario order by nombre"), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");

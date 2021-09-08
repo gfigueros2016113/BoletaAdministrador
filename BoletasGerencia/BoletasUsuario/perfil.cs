@@ -26,6 +26,7 @@ namespace BoletasUsuario
         public string permiso;
         public string empresa;
         public string departamentoPrincipal;
+        public string horario;
         public string valorHorario;
 
         ConsultasSQL SQL = new ConsultasSQL();
@@ -40,6 +41,8 @@ namespace BoletasUsuario
             inicioLabores = SQL.inicioLabores;
             empresa = SQL.idEmpresa;
             departamentoPrincipal = SQL.departamentoPrincipal;
+            horario = SQL.horario;
+
             comboBox2.DataSource = SQL.MostrarDepartamentos();
             comboBox2.DisplayMember = "nombre";
             comboBox2.ValueMember = "idDepartamento";
@@ -48,10 +51,10 @@ namespace BoletasUsuario
             comboBox3.DisplayMember = "nombre";
             comboBox3.ValueMember = "idDepartamento";
 
-            comboBox5.DataSource = SQL.MostrarHorario();
+            comboBox5.DataSource = SQL.MostrarHorarioAsignado();
             comboBox5.DisplayMember = "nombre";
             comboBox5.ValueMember = "idHorario";
-            valorHorario = comboBox5.SelectedValue.ToString();
+            
 
 
 
@@ -75,10 +78,9 @@ namespace BoletasUsuario
             dateTimePicker1.Value = Convert.ToDateTime(inicioLabores);
             numericUpDown1.Value = Convert.ToDecimal(dias);
             comboBox2.SelectedValue = departamentoPrincipal;
+            comboBox5.SelectedValue = horario;
+            valorHorario = horario;
             dataGridView1.DataSource = SQL.ObtenerDepartamentosXId(id);
-
-
-
 
         }
 
@@ -118,7 +120,10 @@ namespace BoletasUsuario
             {
                 if (SQL.EditarEmpleado(textBox1.Text, textBox2.Text,comboBox1.SelectedValue.ToString(), dateTimePicker1.Value.ToShortDateString(),numericUpDown1.Value.ToString(),comboBox2.SelectedValue.ToString(),id, comboBox5.SelectedValue.ToString()))
                 {
-                    MessageBox.Show("Empleado editado correctamente");                  
+                    MessageBox.Show("Empleado editado correctamente");
+                    this.Close();
+                    VerEmpleados verEmpleados = new VerEmpleados();
+                    verEmpleados.Show();
                 }
                 else
                 {
@@ -173,6 +178,11 @@ namespace BoletasUsuario
             verHorario.valorHorario = valorHorario;
             verHorario.Show();
 
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            valorHorario = comboBox5.SelectedValue.ToString();
         }
     }
 }

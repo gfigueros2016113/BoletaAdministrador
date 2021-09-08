@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BoletasUsuario"
   ],
-  "SelectedNode": "\\BoletasAdministrador.sln",
+  "SelectedNode": "\\BoletasUsuario\\ConsultasSQL.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -110,6 +110,7 @@ namespace BoletasUsuario
             perfil menu = new perfil();
             menu.id = id;
             menu.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
