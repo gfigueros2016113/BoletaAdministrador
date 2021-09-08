@@ -98,7 +98,7 @@ namespace BoletasUsuario
         public DataTable ObtenerMarcas()
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo"), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, d.nombre as Departamento, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo inner join departamento d on u.idDepartamentoP = d.idDepartamento"), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
