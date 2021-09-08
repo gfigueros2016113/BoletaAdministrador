@@ -26,5 +26,25 @@ namespace BoletasUsuario
         {
 
         }
+
+
+
+        private void ausencia_Click(object sender, EventArgs e)
+        {
+            ausencia aus = new ausencia();
+            aus.Show();
+        }
+
+        private void jIncompleta_Click(object sender, EventArgs e)
+        {
+            jIncompleta j = new jIncompleta();
+            j.Show();
+        }
+
+        private void precencia_Click(object sender, EventArgs e)
+        {
+            presencia pres = new presencia();
+            pres.Show();
+        }
     }
 }

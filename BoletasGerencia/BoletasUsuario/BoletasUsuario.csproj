@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ausencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ausencia.Designer.cs">
+      <DependentUpon>ausencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="AutorizarBoletas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,12 @@
     <Compile Include="Interfaz.Designer.cs">
       <DependentUpon>Interfaz.cs</DependentUpon>
     </Compile>
+    <Compile Include="jIncompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jIncompleta.Designer.cs">
+      <DependentUpon>jIncompleta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +206,12 @@
     </Compile>
     <Compile Include="Pregunta.Designer.cs">
       <DependentUpon>Pregunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="presencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="presencia.Designer.cs">
+      <DependentUpon>presencia.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -219,6 +237,9 @@
     <Compile Include="VerHorario.Designer.cs">
       <DependentUpon>VerHorario.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ausencia.resx">
+      <DependentUpon>ausencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AutorizarBoletas.resx">
       <DependentUpon>AutorizarBoletas.cs</DependentUpon>
     </EmbeddedResource>
@@ -276,6 +297,9 @@
     <EmbeddedResource Include="Interfaz.resx">
       <DependentUpon>Interfaz.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="jIncompleta.resx">
+      <DependentUpon>jIncompleta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pregunta.resx">
       <DependentUpon>Pregunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="presencia.resx">
+      <DependentUpon>presencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
