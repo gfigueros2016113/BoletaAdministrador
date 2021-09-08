@@ -60,6 +60,12 @@
     <Compile Include="AutorizarBoletas.Designer.cs">
       <DependentUpon>AutorizarBoletas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Biometricos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Biometricos.Designer.cs">
+      <DependentUpon>Biometricos.cs</DependentUpon>
+    </Compile>
     <Compile Include="BoletaSistemas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +221,9 @@
     </Compile>
     <EmbeddedResource Include="AutorizarBoletas.resx">
       <DependentUpon>AutorizarBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Biometricos.resx">
+      <DependentUpon>Biometricos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BoletaSistemas.resx">
       <DependentUpon>BoletaSistemas.cs</DependentUpon>
@@ -391,8 +400,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="calendar.ico" />
+    <Content Include="Resources\archivo1.png" />
+    <Content Include="Resources\biometria.png" />
+    <Content Include="Resources\falta-de-futbol.png" />
+    <Content Include="Resources\horario-de-trabajo.png" />
+    <Content Include="Resources\huella-dactilar.png" />
     <Content Include="Resources\informacion.png" />
     <Content Include="Resources\lista-de-asistentes.png" />
+    <Content Include="Resources\retrasar.png" />
+    <Content Include="Resources\salida.png" />
+    <Content Include="Resources\trabajar.png" />
     <None Include="Resources\cerrar.png" />
     <None Include="Resources\mas.png" />
     <None Include="Resources\editar.png" />

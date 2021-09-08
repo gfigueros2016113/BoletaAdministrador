@@ -80,10 +80,10 @@ namespace BoletasUsuario
             menu.Show();
         }
 
-        private void marcas_btn_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
-            Marcas marcas = new Marcas();
-            marcas.Show();
+            Biometricos biometricos = new Biometricos();
+            biometricos.Show();
         }
     }
 }
