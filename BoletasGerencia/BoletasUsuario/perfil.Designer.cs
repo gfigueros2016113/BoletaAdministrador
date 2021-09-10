@@ -123,7 +123,7 @@
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Image = global::BoletasUsuario.Properties.Resources.informacion;
+            this.button6.Image = global::BoletasUsuario.Properties.Resources.busqueda__1_;
             this.button6.Location = new System.Drawing.Point(222, 269);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(35, 28);
@@ -367,7 +367,7 @@
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.comboBox3);
             this.panel2.Controls.Add(this.label12);
-            this.panel2.Location = new System.Drawing.Point(13, 55);
+            this.panel2.Location = new System.Drawing.Point(12, 56);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(436, 320);
