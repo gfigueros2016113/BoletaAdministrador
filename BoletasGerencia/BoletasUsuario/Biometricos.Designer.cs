@@ -218,6 +218,7 @@ namespace BoletasUsuario
             this.Controls.Add(this.marcas_btn);
             this.DoubleBuffered = true;
             this.Name = "Biometricos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biometricos";
             this.Load += new System.EventHandler(this.Biometricos_Load);
             this.ResumeLayout(false);
