@@ -106,6 +106,75 @@ namespace BoletasUsuario
             return ds.Tables["tabla"];
         }
 
+        public DataTable ObtenerReporteHorario()
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Entrada, (select top 1 convert(varchar(10), m2.hora, 108) from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida) as Salida, (select top 1 case when convert(varchar(10), m2.hora, 108) > convert(varchar(10), hh.horaSalida, 108) then '00:00:00'  else convert(varchar(10),hh.horaSalida - m2.hora, 108)  end  from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida) as SalidaPrevia, (select top 1 case when convert(varchar(10), m.hora, 108) < convert(varchar(10), hh.horaEntrada, 108) then '00:00:00'  else convert(varchar(10),m.hora - hh.horaEntrada, 108)   end  from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as EntradaTarde, (select top 1 convert(varchar(10), m2.hora - m.hora, 108) from marca m2 where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario) as Permanencia, (select top 1 case when convert(varchar(10),m2.hora - m.hora, 108) < convert(varchar(10), (hh.horaSalida - hh.horaEntrada)  , 108) then '00:00:00' else convert(varchar(10), m2.hora - m.hora - (hh.horaSalida - hh.horaEntrada), 108)   end from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida and datepart(DW, m.hora) = hh.idDiaEntrada)as HoraExtra from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario= u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario inner join horaHorarioF hh on hh.idHorario = h.idHorario where m.idTipo = 1 and datepart(DW, m.hora) = hh.idDiaEntrada"), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+        public DataTable ObtenerReporteHorarioFecha(string fecha)
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Entrada, (select top 1 convert(varchar(10), m2.hora, 108) from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida) as Salida, (select top 1 case when convert(varchar(10), m2.hora, 108) > convert(varchar(10), hh.horaSalida, 108) then '00:00:00'  else convert(varchar(10),hh.horaSalida - m2.hora, 108)  end  from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida) as SalidaPrevia, (select top 1 case when convert(varchar(10), m.hora, 108) < convert(varchar(10), hh.horaEntrada, 108) then '00:00:00'  else convert(varchar(10),m.hora - hh.horaEntrada, 108)   end  from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as EntradaTarde, (select top 1 convert(varchar(10), m2.hora - m.hora, 108) from marca m2 where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario) as Permanencia, (select top 1 case when convert(varchar(10),m2.hora - m.hora, 108) < convert(varchar(10), (hh.horaSalida - hh.horaEntrada)  , 108) then '00:00:00' else convert(varchar(10), m2.hora - m.hora - (hh.horaSalida - hh.horaEntrada), 108)   end from marca m2 inner join horaHorarioF hh on hh.idHorario = h.idHorario where m2.idTipo = 2 and m2.idMarca > m.idMarca and m2.idUsuario = u.idUsuario and datepart(DW, m2.hora) = hh.idDiaSalida and datepart(DW, m.hora) = hh.idDiaEntrada)as HoraExtra from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario= u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario inner join horaHorarioF hh on hh.idHorario = h.idHorario where m.idTipo = 1 and datepart(DW, m.hora) = hh.idDiaEntrada and convert(varchar(10), m.hora, 103) = convert(varchar(10), '{0}', 103)",  new string[] { fecha }), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+
+        public DataTable ObtenerReporteSalidaPrevia()
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, (select top 1 convert(varchar(10), hh.horaSalida, 108) from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as HoraSalida, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Salida, (select top 1 case when convert(varchar(10), m.hora, 108) > convert(varchar(10), hh.horaSalida, 108) then '00:00:00'  else convert(varchar(10),hh.horaSalida - m.hora, 108)  end from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as SalidaPrevia from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario= u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario  where m.idTipo = 2"), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+        public DataTable ObtenerReporteSalidaPreviaFecha( string fecha)
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, (select top 1 convert(varchar(10), hh.horaSalida, 108) from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as HoraSalida, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Salida, (select top 1 case when convert(varchar(10), m.hora, 108) > convert(varchar(10), hh.horaSalida, 108) then '00:00:00'  else convert(varchar(10),hh.horaSalida - m.hora, 108)  end from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaSalida) as SalidaPrevia from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario= u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario  where m.idTipo = 2 and convert(varchar(10), m.hora, 103) = convert(varchar(10), '{0}', 103)", new string[] { fecha }), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+
+        public DataTable ObtenerReporteEntradaTarde()
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, (select top 1 convert(varchar(10), hh.horaEntrada, 108) from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaEntrada) as HoraEntrada, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Entrada, (select top 1 case when convert(varchar(10), m.hora, 108) < convert(varchar(10), hh.horaEntrada, 108) then '00:00:00'  else convert(varchar(10),m.hora - hh.horaEntrada, 108)   end from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaEntrada) as EntradaTarde from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario=u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario  where m.idTipo = 1"), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+        public DataTable ObtenerReporteEntradaTardeFecha(string fecha)
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select u.nombre as Empleado, d.nombre as Departamento , h.nombre as Horario, (select top 1 convert(varchar(10), hh.horaEntrada, 108) from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaEntrada) as HoraEntrada, convert(varchar(10), m.hora, 103) as Fecha ,convert(varchar(10), m.hora, 108) as Entrada, (select top 1 case when convert(varchar(10), m.hora, 108) < convert(varchar(10), hh.horaEntrada, 108) then '00:00:00'  else convert(varchar(10),m.hora - hh.horaEntrada, 108)   end from horaHorarioF hh inner join horario h on hh.idHorario = h.idHorario inner join Usuario us on us.idHorario = h.idHorario where us.idUsuario = u.idUsuario and datepart(DW, m.hora) = hh.idDiaEntrada) as EntradaTarde from marca m inner join Tipo t on m.idTipo = t.idTipo inner join usuario u on m.idUsuario=u.idUsuario inner join departamento d on u.idDepartamentoP = d.idDepartamento inner join horario h on h.idHorario = u.idHorario  where m.idTipo = 1 and convert(varchar(10), m.hora, 103) = convert(varchar(10), '{0}', 103)", new string[] { fecha }), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+
         public DataTable ObtenerMarcasPorFecha(string fechaInicial, string fechaFinal)
         {
             conexion.Open();
