@@ -36,7 +36,6 @@ namespace BoletasUsuario
             this.horario_btn = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.previa_btn = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tarde_btn = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -48,9 +47,10 @@ namespace BoletasUsuario
             this.marcas_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.marcas_btn.Image = global::BoletasUsuario.Properties.Resources.lista_de_asistentes;
             this.marcas_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.marcas_btn.Location = new System.Drawing.Point(128, 83);
+            this.marcas_btn.Location = new System.Drawing.Point(192, 128);
+            this.marcas_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.marcas_btn.Name = "marcas_btn";
-            this.marcas_btn.Size = new System.Drawing.Size(142, 139);
+            this.marcas_btn.Size = new System.Drawing.Size(213, 214);
             this.marcas_btn.TabIndex = 39;
             this.marcas_btn.Text = "Marcas Empleados.";
             this.marcas_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -64,7 +64,8 @@ namespace BoletasUsuario
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F);
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(18, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(295, 37);
             this.label3.TabIndex = 40;
@@ -77,8 +78,8 @@ namespace BoletasUsuario
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(568, 420);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(852, 646);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(264, 21);
             this.label1.TabIndex = 46;
@@ -91,9 +92,10 @@ namespace BoletasUsuario
             this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Image = global::BoletasUsuario.Properties.Resources.trabajar;
             this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(276, 228);
+            this.button7.Location = new System.Drawing.Point(508, 351);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(142, 139);
+            this.button7.Size = new System.Drawing.Size(213, 214);
             this.button7.TabIndex = 52;
             this.button7.Text = "Reporte precencia.";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -107,9 +109,10 @@ namespace BoletasUsuario
             this.horario_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.horario_btn.Image = global::BoletasUsuario.Properties.Resources.horario_de_trabajo;
             this.horario_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.horario_btn.Location = new System.Drawing.Point(424, 83);
+            this.horario_btn.Location = new System.Drawing.Point(414, 127);
+            this.horario_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.horario_btn.Name = "horario_btn";
-            this.horario_btn.Size = new System.Drawing.Size(142, 139);
+            this.horario_btn.Size = new System.Drawing.Size(213, 214);
             this.horario_btn.TabIndex = 51;
             this.horario_btn.Text = "Reporte Horarios.";
             this.horario_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -124,9 +127,10 @@ namespace BoletasUsuario
             this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Image = global::BoletasUsuario.Properties.Resources.falta_de_futbol;
             this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button4.Location = new System.Drawing.Point(424, 228);
+            this.button4.Location = new System.Drawing.Point(730, 351);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 139);
+            this.button4.Size = new System.Drawing.Size(213, 214);
             this.button4.TabIndex = 50;
             this.button4.Text = "Reporte ausencia.";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -140,31 +144,16 @@ namespace BoletasUsuario
             this.previa_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.previa_btn.Image = global::BoletasUsuario.Properties.Resources.salida;
             this.previa_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.previa_btn.Location = new System.Drawing.Point(128, 228);
+            this.previa_btn.Location = new System.Drawing.Point(286, 351);
+            this.previa_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.previa_btn.Name = "previa_btn";
-            this.previa_btn.Size = new System.Drawing.Size(142, 139);
+            this.previa_btn.Size = new System.Drawing.Size(213, 214);
             this.previa_btn.TabIndex = 49;
             this.previa_btn.Text = "Reporte salida previa.";
             this.previa_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.previa_btn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.previa_btn.UseVisualStyleBackColor = false;
             this.previa_btn.Click += new System.EventHandler(this.previa_btn_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::BoletasUsuario.Properties.Resources.huella_dactilar;
-            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(276, 83);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 139);
-            this.button3.TabIndex = 47;
-            this.button3.Text = "Reporte Marcas.";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // tarde_btn
             // 
@@ -173,9 +162,10 @@ namespace BoletasUsuario
             this.tarde_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tarde_btn.Image = global::BoletasUsuario.Properties.Resources.retrasar;
             this.tarde_btn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tarde_btn.Location = new System.Drawing.Point(572, 83);
+            this.tarde_btn.Location = new System.Drawing.Point(636, 127);
+            this.tarde_btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tarde_btn.Name = "tarde_btn";
-            this.tarde_btn.Size = new System.Drawing.Size(142, 139);
+            this.tarde_btn.Size = new System.Drawing.Size(213, 214);
             this.tarde_btn.TabIndex = 53;
             this.tarde_btn.Text = "Reporte entrada tarde.";
             this.tarde_btn.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -190,9 +180,10 @@ namespace BoletasUsuario
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Image = global::BoletasUsuario.Properties.Resources.archivo1;
             this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button5.Location = new System.Drawing.Point(572, 228);
+            this.button5.Location = new System.Drawing.Point(857, 128);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 139);
+            this.button5.Size = new System.Drawing.Size(213, 214);
             this.button5.TabIndex = 54;
             this.button5.Text = "Reporte jornada incompleta.";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -201,22 +192,22 @@ namespace BoletasUsuario
             // 
             // Biometricos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BoletasUsuario.Properties.Resources.fondo2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(842, 450);
+            this.ClientSize = new System.Drawing.Size(1263, 692);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.tarde_btn);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.horario_btn);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.previa_btn);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.marcas_btn);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Biometricos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Biometricos";
@@ -235,7 +226,6 @@ namespace BoletasUsuario
         private System.Windows.Forms.Button horario_btn;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button previa_btn;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button tarde_btn;
         private System.Windows.Forms.Button button5;
     }
