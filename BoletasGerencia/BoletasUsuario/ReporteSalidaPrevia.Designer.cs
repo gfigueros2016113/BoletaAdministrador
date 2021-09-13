@@ -168,6 +168,7 @@ namespace BoletasUsuario
             this.Controls.Add(this.dataGridView1);
             this.DoubleBuffered = true;
             this.Name = "ReporteSalidaPrevia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReporteSalidaPrevia";
             this.Load += new System.EventHandler(this.ReporteSalidaPrevia_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
