@@ -149,7 +149,7 @@ namespace BoletasUsuario
             detallesMarca.tipo = tipo;
             detallesMarca.idUsuario = idUsuario;
             detallesMarca.horaSinFormato = horaSinFormato;
-            detallesMarca.Show();            
+            detallesMarca.Show();        
         }
         #endregion
     }
