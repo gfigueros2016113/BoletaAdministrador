@@ -168,6 +168,7 @@ namespace BoletasUsuario
             this.Controls.Add(this.label4);
             this.DoubleBuffered = true;
             this.Name = "ReporteHorario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReporteHorario";
             this.Load += new System.EventHandler(this.ReporteHorario_Load);
             this.groupBox1.ResumeLayout(false);
