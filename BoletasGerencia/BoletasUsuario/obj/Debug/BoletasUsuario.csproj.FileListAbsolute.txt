@@ -608,3 +608,4 @@ C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\o
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteEntradaTarde.resources
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteHorario.resources
 C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.ReporteSalidaPrevia.resources
+C:\Users\gabri\source\repos\BoletaAdministrador\BoletasGerencia\BoletasUsuario\obj\Debug\BoletasUsuario.DetallesMarca.resources
