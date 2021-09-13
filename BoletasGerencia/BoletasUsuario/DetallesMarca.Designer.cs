@@ -53,8 +53,7 @@ namespace BoletasUsuario
             this.titulo_lbl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.titulo_lbl.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titulo_lbl.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.titulo_lbl.Location = new System.Drawing.Point(45, 72);
-            this.titulo_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.titulo_lbl.Location = new System.Drawing.Point(243, 48);
             this.titulo_lbl.Name = "titulo_lbl";
             this.titulo_lbl.Size = new System.Drawing.Size(321, 40);
             this.titulo_lbl.TabIndex = 0;
@@ -65,8 +64,7 @@ namespace BoletasUsuario
             this.nombre_lbl.AutoSize = true;
             this.nombre_lbl.BackColor = System.Drawing.Color.Transparent;
             this.nombre_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombre_lbl.Location = new System.Drawing.Point(16, 25);
-            this.nombre_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.nombre_lbl.Location = new System.Drawing.Point(11, 16);
             this.nombre_lbl.Name = "nombre_lbl";
             this.nombre_lbl.Size = new System.Drawing.Size(75, 21);
             this.nombre_lbl.TabIndex = 1;
@@ -77,8 +75,7 @@ namespace BoletasUsuario
             this.nombre_var_lbl.AutoSize = true;
             this.nombre_var_lbl.BackColor = System.Drawing.Color.Transparent;
             this.nombre_var_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nombre_var_lbl.Location = new System.Drawing.Point(122, 25);
-            this.nombre_var_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.nombre_var_lbl.Location = new System.Drawing.Point(81, 16);
             this.nombre_var_lbl.Name = "nombre_var_lbl";
             this.nombre_var_lbl.Size = new System.Drawing.Size(71, 21);
             this.nombre_var_lbl.TabIndex = 2;
@@ -89,8 +86,7 @@ namespace BoletasUsuario
             this.hora_var_lbl.AutoSize = true;
             this.hora_var_lbl.BackColor = System.Drawing.Color.Transparent;
             this.hora_var_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hora_var_lbl.Location = new System.Drawing.Point(86, 74);
-            this.hora_var_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.hora_var_lbl.Location = new System.Drawing.Point(57, 48);
             this.hora_var_lbl.Name = "hora_var_lbl";
             this.hora_var_lbl.Size = new System.Drawing.Size(46, 21);
             this.hora_var_lbl.TabIndex = 4;
@@ -101,8 +97,7 @@ namespace BoletasUsuario
             this.hora_lbl.AutoSize = true;
             this.hora_lbl.BackColor = System.Drawing.Color.Transparent;
             this.hora_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hora_lbl.Location = new System.Drawing.Point(16, 74);
-            this.hora_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.hora_lbl.Location = new System.Drawing.Point(11, 48);
             this.hora_lbl.Name = "hora_lbl";
             this.hora_lbl.Size = new System.Drawing.Size(50, 21);
             this.hora_lbl.TabIndex = 3;
@@ -113,8 +108,7 @@ namespace BoletasUsuario
             this.fecha_var_lbl.AutoSize = true;
             this.fecha_var_lbl.BackColor = System.Drawing.Color.Transparent;
             this.fecha_var_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fecha_var_lbl.Location = new System.Drawing.Point(480, 74);
-            this.fecha_var_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.fecha_var_lbl.Location = new System.Drawing.Point(302, 48);
             this.fecha_var_lbl.Name = "fecha_var_lbl";
             this.fecha_var_lbl.Size = new System.Drawing.Size(52, 21);
             this.fecha_var_lbl.TabIndex = 6;
@@ -125,8 +119,7 @@ namespace BoletasUsuario
             this.fecha_lbl.AutoSize = true;
             this.fecha_lbl.BackColor = System.Drawing.Color.Transparent;
             this.fecha_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fecha_lbl.Location = new System.Drawing.Point(402, 74);
-            this.fecha_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.fecha_lbl.Location = new System.Drawing.Point(240, 48);
             this.fecha_lbl.Name = "fecha_lbl";
             this.fecha_lbl.Size = new System.Drawing.Size(56, 21);
             this.fecha_lbl.TabIndex = 5;
@@ -137,8 +130,7 @@ namespace BoletasUsuario
             this.tipo_var_lbl.AutoSize = true;
             this.tipo_var_lbl.BackColor = System.Drawing.Color.Transparent;
             this.tipo_var_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tipo_var_lbl.Location = new System.Drawing.Point(861, 74);
-            this.tipo_var_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tipo_var_lbl.Location = new System.Drawing.Point(574, 48);
             this.tipo_var_lbl.Name = "tipo_var_lbl";
             this.tipo_var_lbl.Size = new System.Drawing.Size(43, 21);
             this.tipo_var_lbl.TabIndex = 8;
@@ -149,8 +141,7 @@ namespace BoletasUsuario
             this.tipo_lbl.AutoSize = true;
             this.tipo_lbl.BackColor = System.Drawing.Color.Transparent;
             this.tipo_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tipo_lbl.Location = new System.Drawing.Point(794, 74);
-            this.tipo_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tipo_lbl.Location = new System.Drawing.Point(456, 48);
             this.tipo_lbl.Name = "tipo_lbl";
             this.tipo_lbl.Size = new System.Drawing.Size(47, 21);
             this.tipo_lbl.TabIndex = 7;
@@ -169,11 +160,9 @@ namespace BoletasUsuario
             this.groupBox1.Controls.Add(this.fecha_var_lbl);
             this.groupBox1.Controls.Add(this.hora_var_lbl);
             this.groupBox1.Controls.Add(this.fecha_lbl);
-            this.groupBox1.Location = new System.Drawing.Point(90, 140);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Location = new System.Drawing.Point(250, 91);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(1047, 140);
+            this.groupBox1.Size = new System.Drawing.Size(698, 91);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             // 
@@ -182,8 +171,7 @@ namespace BoletasUsuario
             this.depto_lbl.AutoSize = true;
             this.depto_lbl.BackColor = System.Drawing.Color.Transparent;
             this.depto_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depto_lbl.Location = new System.Drawing.Point(684, 25);
-            this.depto_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.depto_lbl.Location = new System.Drawing.Point(456, 16);
             this.depto_lbl.Name = "depto_lbl";
             this.depto_lbl.Size = new System.Drawing.Size(120, 21);
             this.depto_lbl.TabIndex = 9;
@@ -194,8 +182,7 @@ namespace BoletasUsuario
             this.depto_var_lbl.AutoSize = true;
             this.depto_var_lbl.BackColor = System.Drawing.Color.Transparent;
             this.depto_var_lbl.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.depto_var_lbl.Location = new System.Drawing.Point(861, 25);
-            this.depto_var_lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.depto_var_lbl.Location = new System.Drawing.Point(574, 16);
             this.depto_var_lbl.Name = "depto_var_lbl";
             this.depto_var_lbl.Size = new System.Drawing.Size(116, 21);
             this.depto_var_lbl.TabIndex = 10;
@@ -213,27 +200,25 @@ namespace BoletasUsuario
             this.foto_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.foto_dgv.ColumnHeadersVisible = false;
             this.foto_dgv.Enabled = false;
-            this.foto_dgv.Location = new System.Drawing.Point(52, 301);
-            this.foto_dgv.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.foto_dgv.Location = new System.Drawing.Point(250, 188);
             this.foto_dgv.MultiSelect = false;
             this.foto_dgv.Name = "foto_dgv";
             this.foto_dgv.ReadOnly = true;
             this.foto_dgv.RowHeadersVisible = false;
-            this.foto_dgv.Size = new System.Drawing.Size(1122, 697);
+            this.foto_dgv.Size = new System.Drawing.Size(702, 408);
             this.foto_dgv.TabIndex = 10;
             // 
             // DetallesMarca
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BoletasUsuario.Properties.Resources.FONDO_4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1228, 1061);
+            this.ClientSize = new System.Drawing.Size(1196, 663);
             this.Controls.Add(this.foto_dgv);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.titulo_lbl);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DetallesMarca";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetallesMarca";
