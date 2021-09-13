@@ -26,6 +26,10 @@ namespace BoletasUsuario
         private void Marcas_Load(object sender, EventArgs e)
         {
             marcas_dgv.DataSource = sql.ObtenerMarcas();
+            DataGridViewColumn colIdUsuario = marcas_dgv.Columns[6];
+            DataGridViewColumn colHora = marcas_dgv.Columns[7];
+            colIdUsuario.Visible = false;
+            colHora.Visible = false;
             usuario_cmb.DataSource = sql.MostrarUsuarios();
             usuario_cmb.DisplayMember = "nombre";
             usuario_cmb.ValueMember = "idUsuario";
@@ -123,6 +127,29 @@ namespace BoletasUsuario
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+        #endregion
+        #region Doble Click Celda
+        private void marcas_dgv_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex == -1) return;
+            DataGridViewRow fila = marcas_dgv.Rows[e.RowIndex];
+            string nombre_usuario = Convert.ToString(fila.Cells[1].Value);
+            string depto = Convert.ToString(fila.Cells[2].Value);
+            string fecha = Convert.ToString(fila.Cells[3].Value);
+            string hora = Convert.ToString(fila.Cells[4].Value);
+            string tipo = Convert.ToString(fila.Cells[5].Value);
+            string idUsuario = Convert.ToString(fila.Cells[6].Value);
+            DateTime horaSinFormato = Convert.ToDateTime(fila.Cells[7].Value);
+            DetallesMarca detallesMarca = new DetallesMarca();
+            detallesMarca.nombre_usuario = nombre_usuario;
+            detallesMarca.depto = depto;
+            detallesMarca.fecha = fecha;
+            detallesMarca.hora = hora;
+            detallesMarca.tipo = tipo;
+            detallesMarca.idUsuario = idUsuario;
+            detallesMarca.horaSinFormato = horaSinFormato;
+            detallesMarca.Show();            
         }
         #endregion
     }

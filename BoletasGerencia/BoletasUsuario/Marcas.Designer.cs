@@ -29,10 +29,11 @@ namespace BoletasUsuario
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.marcas_dgv = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.excel_btn = new System.Windows.Forms.Button();
             this.buscar_id_chb = new System.Windows.Forms.CheckBox();
             this.usuario_cmb = new System.Windows.Forms.ComboBox();
             this.buscar_btn = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace BoletasUsuario
             this.hasta_lbl = new System.Windows.Forms.Label();
             this.desde_lbl = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.excel_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.marcas_dgv)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -55,28 +55,29 @@ namespace BoletasUsuario
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.marcas_dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.marcas_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.marcas_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.marcas_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.marcas_dgv.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.marcas_dgv.DefaultCellStyle = dataGridViewCellStyle4;
             this.marcas_dgv.Location = new System.Drawing.Point(12, 121);
             this.marcas_dgv.Name = "marcas_dgv";
             this.marcas_dgv.ReadOnly = true;
             this.marcas_dgv.Size = new System.Drawing.Size(717, 423);
             this.marcas_dgv.TabIndex = 52;
+            this.marcas_dgv.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.marcas_dgv_CellContentDoubleClick);
             // 
             // groupBox1
             // 
@@ -96,6 +97,22 @@ namespace BoletasUsuario
             this.groupBox1.Size = new System.Drawing.Size(389, 106);
             this.groupBox1.TabIndex = 53;
             this.groupBox1.TabStop = false;
+            // 
+            // excel_btn
+            // 
+            this.excel_btn.BackColor = System.Drawing.Color.Transparent;
+            this.excel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.excel_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.excel_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.excel_btn.Image = global::BoletasUsuario.Properties.Resources.Logo_excel_opt;
+            this.excel_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.excel_btn.Location = new System.Drawing.Point(341, 68);
+            this.excel_btn.Name = "excel_btn";
+            this.excel_btn.Size = new System.Drawing.Size(34, 30);
+            this.excel_btn.TabIndex = 53;
+            this.excel_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.excel_btn.UseVisualStyleBackColor = false;
+            this.excel_btn.Click += new System.EventHandler(this.excel_btn_Click);
             // 
             // buscar_id_chb
             // 
@@ -195,22 +212,6 @@ namespace BoletasUsuario
             this.label4.Size = new System.Drawing.Size(273, 40);
             this.label4.TabIndex = 21;
             this.label4.Text = "Marcas Empleados";
-            // 
-            // excel_btn
-            // 
-            this.excel_btn.BackColor = System.Drawing.Color.Transparent;
-            this.excel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.excel_btn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.excel_btn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.excel_btn.Image = global::BoletasUsuario.Properties.Resources.Logo_excel_opt;
-            this.excel_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.excel_btn.Location = new System.Drawing.Point(341, 68);
-            this.excel_btn.Name = "excel_btn";
-            this.excel_btn.Size = new System.Drawing.Size(34, 30);
-            this.excel_btn.TabIndex = 53;
-            this.excel_btn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.excel_btn.UseVisualStyleBackColor = false;
-            this.excel_btn.Click += new System.EventHandler(this.excel_btn_Click);
             // 
             // Marcas
             // 
