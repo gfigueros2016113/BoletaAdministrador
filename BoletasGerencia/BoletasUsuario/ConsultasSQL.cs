@@ -98,7 +98,7 @@ namespace BoletasUsuario
         public DataTable ObtenerMarcas()
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select top 50 m.idMarca as ID, u.nombre as Usuario, d.nombre as Departamento, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo inner join departamento d on u.idDepartamentoP = d.idDepartamento"), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select top 50 m.idMarca as ID, u.nombre as Usuario, d.nombre as Departamento, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo, m.idUsuario, m.hora from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo inner join departamento d on u.idDepartamentoP = d.idDepartamento order by m.hora desc"), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
@@ -109,7 +109,7 @@ namespace BoletasUsuario
         public DataTable ObtenerMarcasPorFecha(string fechaInicial, string fechaFinal)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo  where hora between convert(varchar(10), '{0}', 103) and convert(varchar(10), '{1}', 103)", new string[] { fechaInicial, fechaFinal}), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, d.nombre as Departamento, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo, m.idUsuario, m.hora from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo inner join departamento d on u.idDepartamentoP = d.idDepartamento where hora between convert(varchar(10), '{0}', 103) and convert(varchar(10), '{1}', 103)", new string[] { fechaInicial, fechaFinal}), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
@@ -120,7 +120,18 @@ namespace BoletasUsuario
         public DataTable ObtenerMarcasPorID(string idUsuario)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo where u.idUsuario = {0}", new string[] { idUsuario }), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select m.idMarca as ID, u.nombre as Usuario, d.nombre as Departamento, convert(varchar(10), m.hora, 103) as Fecha, convert(varchar(5), m.hora, 108) as Hora , t.nombreTipo as Tipo, m.idUsuario, m.hora from Marca m inner join Usuario u on m.idUsuario = u.idUsuario inner join Tipo t on m.idTipo = t.idTipo inner join departamento d on u.idDepartamentoP = d.idDepartamento where u.idUsuario = {0}", new string[] { idUsuario }), conexion);
+            SqlDataAdapter ad = new SqlDataAdapter(cmd2);
+            ds = new DataSet();
+            ad.Fill(ds, "tabla");
+            conexion.Close();
+            return ds.Tables["tabla"];
+        }
+
+        public DataTable ObtenerFotoMarca(string idUsuario, string hora)
+        {
+            conexion.Open();
+            SqlCommand cmd2 = new SqlCommand(string.Format("select top 1 fb.foto from fotosBiometrico fb where fb.idUsuario = {0} and fb.hora = '{1}'", new string[] { idUsuario, hora }), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
