@@ -200,7 +200,7 @@ namespace BoletasUsuario
         public DataTable ObtenerFotoMarca(string idUsuario, string hora)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand(string.Format("select top 1 fb.foto from fotosBiometrico fb where fb.idUsuario = {0} and fb.hora = '{1}'", new string[] { idUsuario, hora }), conexion);
+            SqlCommand cmd2 = new SqlCommand(string.Format("select top 1 foto from Marca where idUsuario = {0} and hora = '{1}'", new string[] { idUsuario, hora }), conexion);
             SqlDataAdapter ad = new SqlDataAdapter(cmd2);
             ds = new DataSet();
             ad.Fill(ds, "tabla");
