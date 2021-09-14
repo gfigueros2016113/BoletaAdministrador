@@ -207,11 +207,51 @@
     <Compile Include="Pregunta.Designer.cs">
       <DependentUpon>Pregunta.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="presencia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="presencia.Designer.cs">
       <DependentUpon>presencia.cs</DependentUpon>
+=======
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteAusencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteAusencia.Designer.cs">
+      <DependentUpon>ReporteAusencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEntradaTarde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteEntradaTarde.Designer.cs">
+      <DependentUpon>ReporteEntradaTarde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteHorario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteHorario.Designer.cs">
+      <DependentUpon>ReporteHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteJornadaIncompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteJornadaIncompleta.Designer.cs">
+      <DependentUpon>ReporteJornadaIncompleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePresencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportePresencia.Designer.cs">
+      <DependentUpon>ReportePresencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteSalidaPrevia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteSalidaPrevia.Designer.cs">
+      <DependentUpon>ReporteSalidaPrevia.cs</DependentUpon>
+>>>>>>> Stashed changes
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -325,6 +365,27 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <EmbeddedResource Include="ReporteAusencia.resx">
+      <DependentUpon>ReporteAusencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteEntradaTarde.resx">
+      <DependentUpon>ReporteEntradaTarde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteHorario.resx">
+      <DependentUpon>ReporteHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteJornadaIncompleta.resx">
+      <DependentUpon>ReporteJornadaIncompleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportePresencia.resx">
+      <DependentUpon>ReportePresencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteSalidaPrevia.resx">
+      <DependentUpon>ReporteSalidaPrevia.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> Stashed changes
     <EmbeddedResource Include="VerBoletas.resx">
       <DependentUpon>VerBoletas.cs</DependentUpon>
     </EmbeddedResource>

@@ -46,5 +46,27 @@ namespace BoletasUsuario
             presencia pres = new presencia();
             pres.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ReportePresencia rpre = new ReportePresencia();
+            rpre.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ReporteAusencia rep = new ReporteAusencia();
+            rep.Show();
+            this.Hide();
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ReporteJornadaIncompleta rep = new ReporteJornadaIncompleta();
+            rep.Show();
+            this.Hide();
+        }
     }
 }
